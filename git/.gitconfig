@@ -1,0 +1,18 @@
+[user]
+	name = XYZ 
+	email = xyz@git.com
+[core]
+	editor = vim
+	autocrlf = input
+[color]
+	ui = auto
+[init]
+	defaultBranch = main
+[diff]
+[difftool "xyz-tool"]
+[alias]
+	ci = commit
+	co = checkout
+	st = status
+	br = branch
+    hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
